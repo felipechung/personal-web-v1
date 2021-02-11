@@ -5,7 +5,7 @@ import * as FaIcons from "react-icons/fa";
 function Navbar() {
   return (
     <div>
-      <navbar className="navbar">
+      <div className="navbar">
         <div className="navbar-container">
           <ul>
             <li className="nav-item">
@@ -32,9 +32,17 @@ function Navbar() {
                 <span>Contact</span>
               </a>
             </li>
+            <li className="nav-icons">
+              <a href="#linkedin">
+                <FaIcons.FaLinkedinIn></FaIcons.FaLinkedinIn>
+              </a>
+              <a href="#github">
+                <FaIcons.FaGithub></FaIcons.FaGithub>
+              </a>
+            </li>
           </ul>
         </div>
-      </navbar>
+      </div>
     </div>
   );
 }
