@@ -19,15 +19,17 @@
 .nav-links {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  margin-right: 4rem;
+  margin-left: 5rem;
+
   align-items: center;
 }
 span {
-  margin-left: 10px;
+  margin-left: 15px;
+  font-size: large;
 }
 
 #linkedin {
+  margin-left: 2rem;
   margin-right: 10px;
 }
 
@@ -37,5 +39,9 @@ a {
   text-decoration: none;
 }
 a:hover {
+  color: #00d4bd;
+}
+
+.nav-icon {
   color: #00d4bd;
 }
