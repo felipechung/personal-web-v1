@@ -13,4 +13,15 @@
 
 .intro h3 {
   color: #00d4bd;
+  font-weight: 100;
+}
+
+.intro h1 {
+  color: white;
+  font-weight: 100;
+}
+
+.intro p {
+  color: white;
+  font-weight: 100;
 }
