@@ -1,0 +1,12 @@
+.portfolio-container {
+  background-color: black;
+  height: 100vh;
+}
+
+.title h3 {
+  color: #00d4bd;
+}
+
+.title h1 {
+  color: white;
+}
