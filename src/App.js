@@ -1,7 +1,7 @@
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
-import Main from "./components/Main/Main";
-import Portfolio from "./components/Portfolio/Portfolio";
+import Main from "./pages/Main/Main";
+import Portfolio from "./pages/Portfolio/Portfolio";
 
 function App() {
   return (
