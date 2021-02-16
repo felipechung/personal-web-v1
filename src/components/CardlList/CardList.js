@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Card from "../Card/Card";
 
 export class CardList extends Component {
   state = {
@@ -21,7 +22,13 @@ export class CardList extends Component {
     ],
   };
   render() {
-    return <div></div>;
+    return (
+      <div className="card-list-container">
+        {this.state.map((project) => {
+          return <Card name={project.title}></Card>;
+        })}
+      </div>
+    );
   }
 }
 
