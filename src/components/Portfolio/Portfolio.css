@@ -3,10 +3,20 @@
   height: 100vh;
 }
 
+.title {
+  padding: 15rem 0 0 10rem;
+}
 .title h3 {
   color: #00d4bd;
+  font-weight: 100;
 }
 
 .title h1 {
   color: white;
+  font-weight: 100;
+}
+
+.title p {
+  color: white;
+  font-weight: 100;
 }
