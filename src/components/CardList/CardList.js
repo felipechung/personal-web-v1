@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import Card from "../Card/Card";
 
-export class CardList extends Component {
+class CardList extends Component {
   state = {
     projects: [
       {
         title: "Party Watch",
-        image: "../../images/ptwatch.jpg",
+        image: "https://www.watchparty.me/screenshot4.png",
         id: 1,
       },
       {
@@ -24,8 +24,8 @@ export class CardList extends Component {
   render() {
     return (
       <div className="card-list-container">
-        {this.state.map((project) => {
-          return <Card name={project.title}></Card>;
+        {this.state.projects.map((project) => {
+          return <Card name={project.title} image={project.image}></Card>;
         })}
       </div>
     );

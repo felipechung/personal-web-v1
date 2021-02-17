@@ -1,5 +1,6 @@
 import React from "react";
 import "./Portfolio.css";
+import CardList from "../../components/CardList/CardList";
 
 function Portfolio() {
   return (
@@ -8,6 +9,7 @@ function Portfolio() {
         <h3>Portfolio</h3>
         <h1>Recent Projects</h1>
         <p>These are the most recent projects I’ve worked on</p>
+        <CardList></CardList>
       </div>
     </div>
   );
