@@ -1,10 +1,11 @@
 import React from "react";
+import "./Card.css";
 
 function Card(props) {
   return (
-    <div>
-      <h3>{props.name}</h3>
-      <img src={props.image} alt="imag" width="500" height="600"></img>
+    <div className="card-container">
+      <p className="project-title">{props.name}</p>
+      <img src={props.image} alt="imag" width="300" height="250"></img>
     </div>
   );
 }

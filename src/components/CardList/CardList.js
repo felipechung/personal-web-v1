@@ -1,21 +1,23 @@
 import React, { Component } from "react";
 import Card from "../Card/Card";
+import "./CardList.css";
 
 class CardList extends Component {
   state = {
     projects: [
       {
-        title: "Party Watch",
-        image: "https://www.watchparty.me/screenshot4.png",
+        name: "Party Watch",
+        image: "https://i.ibb.co/LhQcSCP/ptwatch.jpg",
         id: 1,
       },
       {
-        title: "Restaurant Website",
-        image: "",
+        name: "Restaurant Website",
+        image: "https://i.ibb.co/tqkmdSK/restaurant.jpg",
+
         id: 2,
       },
       {
-        title: "Release Date",
+        name: "Release Date",
         image: "",
         id: 3,
       },
@@ -25,7 +27,7 @@ class CardList extends Component {
     return (
       <div className="card-list-container">
         {this.state.projects.map((project) => {
-          return <Card name={project.title} image={project.image}></Card>;
+          return <Card name={project.name} image={project.image}></Card>;
         })}
       </div>
     );
