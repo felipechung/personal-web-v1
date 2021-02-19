@@ -31,14 +31,16 @@ function Navbar() {
               <span>Contact</span>
             </a>
           </li>
-          <li className="nav-item nav-links">
-            <a href="#linkedin" id="linkedin">
-              <FaIcons.FaLinkedinIn></FaIcons.FaLinkedinIn>
-            </a>
-            <a href="#github">
-              <FaIcons.FaGithub></FaIcons.FaGithub>
-            </a>
-          </li>
+          <div className="links">
+            <li className="nav-item nav-links ">
+              <a href="#linkedin" id="linkedin">
+                <FaIcons.FaLinkedinIn></FaIcons.FaLinkedinIn>
+              </a>
+              <a href="#github">
+                <FaIcons.FaGithub></FaIcons.FaGithub>
+              </a>
+            </li>
+          </div>
         </ul>
       </div>
     </div>
