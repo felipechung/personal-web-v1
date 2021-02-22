@@ -6,6 +6,7 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="navbar-container">
+        <FaIcons.FaBars className="nav-icon"></FaIcons.FaBars>
         <ul className="nav-items">
           <li className="nav-item">
             <a href="#footer" className="nav-links">
