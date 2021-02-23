@@ -6,14 +6,10 @@ import Portfolio from "./pages/Portfolio/Portfolio";
 function App() {
   return (
     <div className="App">
-      <div className="side-bar">
-        <Navbar></Navbar>
-      </div>
+      <Navbar></Navbar>
 
-      <div className="right">
-        <Main></Main>
-        <Portfolio></Portfolio>
-      </div>
+      <Main></Main>
+      <Portfolio></Portfolio>
     </div>
   );
 }

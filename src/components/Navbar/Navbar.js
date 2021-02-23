@@ -3,58 +3,20 @@ import "./Navbar.css";
 import * as FaIcons from "react-icons/fa";
 
 function Navbar() {
-  const [sidebar, setSidebar] = useState(false);
+  const [click, setClick] = useState(false);
 
-  const showSidebar = () => setSidebar(!sidebar);
+  const handleClick = () => setClick(!click);
   return (
-    <div className="navbar">
-      <div className="navbar-container">
-        <div className="menu-bars">
-          <FaIcons.FaBars
-            className="nav-icon menu-bars"
-            onClick={showSidebar}
-          ></FaIcons.FaBars>
+    <>
+      <nav className="navbar">
+        <a className="navbar-logo" href="#home">
+          LOGO
+        </a>
+        <div className="menu-icon" onClick={handleClick}>
+          <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
         </div>
-        <div className={sidebar ? "nav-menu active" : "nav-menu"}>
-          <ul className="nav-items">
-            <li className="nav-item">
-              <a href="#footer" className="nav-links">
-                <FaIcons.FaHome className="nav-icon"></FaIcons.FaHome>
-                <span>Home</span>
-              </a>
-            </li>
-            <li className="nav-item">
-              <a href="#about" className="nav-links">
-                <FaIcons.FaUser className="nav-icon"></FaIcons.FaUser>
-                <span>About</span>
-              </a>
-            </li>
-            <li className="nav-item">
-              <a href="#portfolio" className="nav-links">
-                <FaIcons.FaLayerGroup className="nav-icon"></FaIcons.FaLayerGroup>
-                <span>Portfolio</span>
-              </a>
-            </li>
-            <li className="nav-item">
-              <a href="#contact" className="nav-links">
-                <FaIcons.FaComments className="nav-icon"></FaIcons.FaComments>
-                <span>Contact</span>
-              </a>
-            </li>
-            <div className="links">
-              <li className="nav-item nav-links ">
-                <a href="#linkedin" id="linkedin">
-                  <FaIcons.FaLinkedinIn></FaIcons.FaLinkedinIn>
-                </a>
-                <a href="#github">
-                  <FaIcons.FaGithub></FaIcons.FaGithub>
-                </a>
-              </li>
-            </div>
-          </ul>
-        </div>
-      </div>
-    </div>
+      </nav>
+    </>
   );
 }
 
