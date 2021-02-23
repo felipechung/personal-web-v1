@@ -27,7 +27,13 @@ class CardList extends Component {
     return (
       <div className="card-list-container">
         {this.state.projects.map((project) => {
-          return <Card name={project.name} image={project.image}></Card>;
+          return (
+            <Card
+              name={project.name}
+              image={project.image}
+              key={project.id}
+            ></Card>
+          );
         })}
       </div>
     );
