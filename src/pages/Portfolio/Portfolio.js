@@ -4,7 +4,7 @@ import CardList from "../../components/CardList/CardList";
 
 function Portfolio() {
   return (
-    <div className="portfolio-container">
+    <div className="portfolio-container" id="portfolio">
       <div className="title">
         <h3>Portfolio</h3>
         <h1>Recent Projects</h1>
