@@ -5,16 +5,17 @@
 }
 
 .App {
-  /* display: grid;
-  grid-template-columns: 0.25fr 1fr; */
-
   font-family: "Karla", sans-serif;
 }
-/* 
-.side-bar {
-  flex: 0.25;
-}
 
-.right {
-  flex: 1;
-} */
+#home,
+#portfolio,
+#about,
+#contact {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-items: center;
+  /* font-size: 1.6rem; */
+  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+}

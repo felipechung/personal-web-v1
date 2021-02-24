@@ -11,7 +11,7 @@ function Navbar() {
     <>
       <nav className="navbar">
         <a className="navbar-logo" href="#home">
-          LOGO
+          &lt;fchung&gt;
         </a>
         <div className="menu-icon" onClick={handleClick}>
           <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
