@@ -20,7 +20,7 @@ function Navbar() {
           <li className="nav-item">
             <a className="nav-links" href="#home" onClick={closeMobileMenu}>
               <FaIcons.FaHome></FaIcons.FaHome>
-              <span>Home</span>
+              <span className="nav-icon">Home</span>
             </a>
           </li>
           <li className="nav-item">
@@ -30,19 +30,19 @@ function Navbar() {
               onClick={closeMobileMenu}
             >
               <FaIcons.FaLayerGroup></FaIcons.FaLayerGroup>
-              <span>Portfolio</span>
+              <span className="nav-icon">Portfolio</span>
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-links" href="#about" onClick={closeMobileMenu}>
               <FaIcons.FaUserAlt></FaIcons.FaUserAlt>
-              <span>About</span>
+              <span className="nav-icon">About</span>
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-links" href="#contact" onClick={closeMobileMenu}>
               <FaIcons.FaComments></FaIcons.FaComments>
-              <span>Contact</span>
+              <span className="nav-icon">Contact</span>
             </a>
           </li>
         </ul>
