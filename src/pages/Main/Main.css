@@ -1,15 +1,20 @@
-.main-container {
-  /* background: url("../images/nyc.jpg") no-repeat center fixed;
-  background-size: cover; */
+.background {
   background: linear-gradient(to right, #2e2d2ece, #2e2d2ece),
     url("../../images/nyc3.jpg") no-repeat center fixed;
   background-size: cover;
 }
-
 .main-container {
+  /* background: url("../images/nyc.jpg") no-repeat center fixed;
+  background-size: cover; */
+  /* background: linear-gradient(to right, #2e2d2ece, #2e2d2ece),
+    url("../../images/nyc3.jpg") no-repeat center fixed;
+  background-size: cover; */
   display: flex;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center;
+  justify-content: center; */
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
 }
 
 .intro h1 {
