@@ -20,3 +20,11 @@
   color: white;
   font-weight: 100;
 } */
+
+.dark-background {
+  background-color: black;
+}
+
+.title {
+  color: white;
+}

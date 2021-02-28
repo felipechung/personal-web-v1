@@ -9,7 +9,7 @@ function Main() {
           <h1>
             Hi, my name is <span className="name">Felipe Chung</span>
           </h1>
-          <h1>i design and develop things</h1>
+          <h1>I design and develop things</h1>
         </div>
       </div>
     </div>
