@@ -7,9 +7,11 @@ function Portfolio() {
     <div className="dark-background">
       <div className="portfolio-container" id="portfolio">
         <div className="title">
-          <h1>Portfolio</h1>
+          <h3>Portfolio</h3>
           <h1>Recent Projects</h1>
           <p>These are the most recent projects I’ve worked on</p>
+        </div>
+        <div>
           <CardList></CardList>
         </div>
       </div>
