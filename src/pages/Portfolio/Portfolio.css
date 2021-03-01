@@ -40,6 +40,10 @@
   width: 60%;
 }
 
+.title h1 {
+  font-weight: 100;
+}
 .title h3 {
   color: #00d4bd;
+  font-weight: 100;
 }

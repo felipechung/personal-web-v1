@@ -5,7 +5,11 @@ function Card(props) {
   return (
     <div className="card-container">
       <p className="project-title">{props.name}</p>
-      <img src={props.image} alt="imag" width="300" height="250"></img>
+
+      <div className="image-container">
+        <img src={props.image} alt="imag" width="300" height="250"></img>
+        <div className="after"></div>
+      </div>
     </div>
   );
 }
