@@ -7,8 +7,7 @@ function Card(props) {
       <p className="project-title">{props.name}</p>
 
       <div className="image-container">
-        <img src={props.image} alt="imag" width="300" height="250"></img>
-        <div className="after"></div>
+        <img src={props.image} alt="imag"></img>
       </div>
     </div>
   );
