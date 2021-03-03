@@ -10,8 +10,8 @@ function Portfolio() {
           <h3>Portfolio</h3>
           <h1>Recent Projects</h1>
           <p>These are the most recent projects I’ve worked on</p>
-          <CardList></CardList>
         </div>
+        <CardList></CardList>
 
         <div></div>
       </div>
