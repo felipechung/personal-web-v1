@@ -8,7 +8,7 @@ class CardList extends Component {
       {
         name: "Party Watch",
         image: "https://i.ibb.co/LhQcSCP/ptwatch.jpg",
-        url: "",
+        url: "https://felipechung.github.io/party-watch/",
         id: 1,
       },
       {
