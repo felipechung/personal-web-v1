@@ -8,17 +8,19 @@ class CardList extends Component {
       {
         name: "Party Watch",
         image: "https://i.ibb.co/LhQcSCP/ptwatch.jpg",
+        url: "",
         id: 1,
       },
       {
         name: "Restaurant Website",
         image: "https://i.ibb.co/tqkmdSK/restaurant.jpg",
-
+        url: "https://rocky-coast-45390.herokuapp.com/",
         id: 2,
       },
       {
         name: "Release Date",
-        image: "",
+        image: "https://i.ibb.co/KKh034N/movie-app.jpg",
+        url: "https://immense-escarpment-63343.herokuapp.com/",
         id: 3,
       },
     ],
