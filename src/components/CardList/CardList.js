@@ -25,12 +25,13 @@ class CardList extends Component {
       },
       {
         name: "Motivational Timer",
-        image: "https://i.ibb.co/h9RvQtS/motivational.jpg",
+        image: "https://i.ibb.co/GVM5hXY/motivational.jpg",
         url: "https://felipechung.github.io/motivational-timer/",
         id: 4,
       },
     ],
   };
+
   render() {
     return (
       <div className="card-list-container">
