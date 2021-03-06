@@ -2,6 +2,7 @@ import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import Main from "./pages/Main/Main";
 import Portfolio from "./pages/Portfolio/Portfolio";
+import About from "./pages/About/About";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
 
       <Main></Main>
       <Portfolio></Portfolio>
+      <About></About>
     </div>
   );
 }
