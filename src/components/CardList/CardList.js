@@ -25,7 +25,7 @@ class CardList extends Component {
       },
       {
         name: "Motivational Timer",
-        image: "https://i.ibb.co/GVM5hXY/motivational.jpg",
+        image: "https://i.ibb.co/DLtD4QY/motivational2.jpg",
         url: "https://felipechung.github.io/motivational-timer/",
         id: 4,
       },
