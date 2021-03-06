@@ -12,8 +12,6 @@ function Portfolio() {
           <p>These are the most recent projects I’ve worked on</p>
         </div>
         <CardList></CardList>
-
-        <div></div>
       </div>
     </div>
   );

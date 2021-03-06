@@ -23,6 +23,12 @@ class CardList extends Component {
         url: "https://immense-escarpment-63343.herokuapp.com/",
         id: 3,
       },
+      {
+        name: "Motivational Timer",
+        image: "https://i.ibb.co/h9RvQtS/motivational.jpg",
+        url: "https://felipechung.github.io/motivational-timer/",
+        id: 4,
+      },
     ],
   };
   render() {
