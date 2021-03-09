@@ -9,7 +9,9 @@ function About() {
           <h1>About</h1>
           <div className="about-content">
             <p className="about-text">
-              Apenas um brasileirinho tentando a vida
+              Hi, My name is Felipe Chung. I am a Web Developer with a passion
+              for front-end development. I enjoy building things for the web,
+              from simple landing pages to eCommerce websites.
             </p>
             <img
               className="profile-picture"
