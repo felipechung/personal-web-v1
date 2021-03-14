@@ -13,6 +13,13 @@ function About() {
               for front-end development. I enjoy building things for the web,
               from simple landing pages to eCommerce websites.
             </p>
+            <p>Some technologies I've been working with recently:</p>
+            <ul>
+              <li>HTML & CSS</li>
+              <li>React</li>
+              <li>JavaScript</li>
+              <li>Node.js</li>
+            </ul>
             <img
               className="profile-picture"
               src="https://i.ibb.co/SVvtgKL/pic.jpg"
