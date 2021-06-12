@@ -8,7 +8,7 @@ function Portfolio() {
       <div className="portfolio-container">
         <div className="title">
           <h3>Portfolio</h3>
-          <h1>Recent Projects</h1>
+          <h2>Recent Projects</h2>
           <p>These are the most recent projects I’ve worked on</p>
         </div>
         <CardList></CardList>

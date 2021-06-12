@@ -6,7 +6,7 @@ function Card(props) {
       <p className="project-title">{props.name}</p>
 
       <div className="image-container">
-        <img src={props.image} alt="imag"></img>
+        <img src={props.image} alt="img"></img>
       </div>
     </div>
   );

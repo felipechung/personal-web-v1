@@ -1,4 +1,45 @@
 .about-content {
   display: flex;
-  /* flex-direction: row; */
+}
+
+.gray-background {
+  background-color: #111;
+}
+
+.about-text {
+  /* font-size: 1.2rem; */
+}
+
+.bullets {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+.bullets li::before {
+  content: "\2022";
+  color: #00d4bd;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.bullet-container {
+  display: flex;
+}
+
+.bullet-text {
+  padding: 1.2rem;
+}
+
+.profile-picture {
+  margin-left: 1rem;
+  width: 250px;
+  height: 250px;
+}
+
+@media screen and (max-width: 960px) {
+  .profile-picture {
+    display: none;
+  }
 }
