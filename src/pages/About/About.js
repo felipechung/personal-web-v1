@@ -34,7 +34,7 @@ function About() {
             <div className="profile-container">
               <img
                 className="profile-picture"
-                src="https://i.ibb.co/xfr4pvr/profile.png"
+                src="https://i.ibb.co/1LhcctZ/profile-111.png"
                 alt="profile"
               ></img>
             </div>
