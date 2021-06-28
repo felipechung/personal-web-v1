@@ -4,7 +4,7 @@ import "./CardList.css";
 import Modal from "../Modal/Modal";
 
 export default function CardList() {
-  const [projectId, setProjectId] = useState(null);
+  const [project, setProject] = useState(null);
 
   const projects = [
     {
@@ -42,17 +42,16 @@ export default function CardList() {
               name={project.name}
               image={project.image}
               key={project.id}
-              onClickProject={() => setProjectId(project.id)}
+              onClickProject={() => setProject(project)}
             ></Card>
           );
         })}
       </div>
       <Modal
-        isOpen={Boolean(projectId)}
-        onClickClose={() => setProjectId(null)}
-      >
-        <h1>Hello Modal</h1>
-      </Modal>
+        isOpen={Boolean(project)}
+        onClickClose={() => setProject(null)}
+        project={project}
+      ></Modal>
     </div>
   );
 }
