@@ -1,8 +1,11 @@
 import React, { useState } from "react";
 import Card from "../Card/Card";
 import "./CardList.css";
+import Modal from "../Modal/Modal";
 
 export default function CardList() {
+  const [projectId, setProjectId] = useState(null);
+
   const projects = [
     {
       name: "Party Watch",
@@ -39,10 +42,17 @@ export default function CardList() {
               name={project.name}
               image={project.image}
               key={project.id}
+              onClickProject={() => setProjectId(project.id)}
             ></Card>
           );
         })}
       </div>
+      <Modal
+        isOpen={Boolean(projectId)}
+        onClickClose={() => setProjectId(null)}
+      >
+        <h1>Hello Modal</h1>
+      </Modal>
     </div>
   );
 }
