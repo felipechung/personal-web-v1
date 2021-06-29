@@ -21,7 +21,7 @@ export default function CardList() {
       image: "https://i.ibb.co/tqkmdSK/restaurant.jpg",
       url: "https://rocky-coast-45390.herokuapp.com/",
       description: "A fictional restaurant website.",
-      technologies: ["HTML", "CSS", "Bootstrap"],
+      technologies: ["EJS", "Node.js", "mongoDB"],
       id: 2,
     },
     {
@@ -30,7 +30,7 @@ export default function CardList() {
       url: "https://immense-escarpment-63343.herokuapp.com/",
       description:
         "A website to get information on upcoming movies and tv shows.",
-      technologies: ["HTML", "CSS", "Bootstrap"],
+      technologies: ["EJS", "Node.js"],
       id: 3,
     },
     {
@@ -38,8 +38,18 @@ export default function CardList() {
       image: "https://i.ibb.co/DLtD4QY/motivational2.jpg",
       url: "https://felipechung.github.io/motivational-timer/",
       description: "A Pomodoro timer with motivational audio messages.",
-      technologies: ["HTML", "CSS", "Bootstrap"],
+      technologies: ["HTML", "CSS", "JavaScript"],
       id: 4,
+    },
+
+    {
+      name: "Letmeask",
+      image: "",
+      url: "",
+      description:
+        "A website for users to answer/ask questions. This project was coded along with the instructor of the Rocketseat Next Level Week #5. The design was provided by the Rocketseat team.",
+      technologies: ["React JS", "TypeScript", "Firebase"],
+      id: 5,
     },
   ];
 
