@@ -32,8 +32,10 @@ export default function Modal({ isOpen, onClickClose, project }) {
               <FaIcons.FaTimes></FaIcons.FaTimes>
             </button>
           </div>
+          <div className="content-container">
+            <img className="modal-img" src={project.image} alt="Project img" />
+          </div>
 
-          <img className="modal-img" src={project.image} alt="Project img" />
           <p>{project.description}</p>
           <ul className="about-text bullets">
             {project.technologies.map((tech) => {

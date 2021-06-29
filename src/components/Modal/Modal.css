@@ -14,31 +14,47 @@
   position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-100%, -50%);
+  transform: translate(-50%, -50%);
   background-color: #fff;
-  max-width: 300px;
+  width: 300px;
+  /* text-align: center; */
 }
 
 .modal-close-button {
-  float: right;
   background: unset;
   border: unset;
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+
+  position: relative;
+
+  top: 4px;
+  left: 50px;
+  cursor: pointer;
 }
 
 .modal-header {
   background-color: black;
   color: #fff;
+  min-width: 100%;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
 }
 
 .modal-content {
   display: flex;
   flex-direction: column;
+  justify-items: center;
+  align-items: center;
 }
 
 .modal-img {
   height: 100px;
-  width: 300px;
+  width: 200px;
+}
+
+.content-container {
+  padding: 10px;
 }

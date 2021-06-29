@@ -47,7 +47,7 @@ export default function CardList() {
       image: "",
       url: "",
       description:
-        "A website for users to answer/ask questions. This project was coded along with the instructor of the Rocketseat Next Level Week #5. The design was provided by the Rocketseat team.",
+        "A website for users to answer/ask questions. This project was coded along with the instructor of the Rocketseat Next Level Week #5.",
       technologies: ["React JS", "TypeScript", "Firebase"],
       id: 5,
     },
