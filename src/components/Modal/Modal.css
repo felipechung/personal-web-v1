@@ -16,7 +16,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #fff;
-  width: 300px;
+  width: 500px;
   /* text-align: center; */
 }
 
@@ -48,13 +48,38 @@
   flex-direction: column;
   justify-items: center;
   align-items: center;
+  background-color: #363535;
+  color: #fff;
 }
 
 .modal-img {
-  height: 100px;
-  width: 200px;
+  height: 150px;
+  width: 300px;
 }
 
 .content-container {
-  padding: 10px;
+  padding: 30px;
+}
+
+.modal-description {
+  width: 300px;
+}
+
+.bullets-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.bullets {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+.bullets li::before {
+  content: "\2022";
+  color: #00d4bd;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
 }

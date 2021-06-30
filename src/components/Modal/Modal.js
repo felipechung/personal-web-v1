@@ -35,9 +35,11 @@ export default function Modal({ isOpen, onClickClose, project }) {
           <div className="content-container">
             <img className="modal-img" src={project.image} alt="Project img" />
           </div>
+          <div className="content-container">
+            <p className="modal-description">{project.description}</p>
+          </div>
 
-          <p>{project.description}</p>
-          <ul className="about-text bullets">
+          <ul className="about-text bullets bullets-container">
             {project.technologies.map((tech) => {
               return <li className="bullet-text">{tech}</li>;
             })}
