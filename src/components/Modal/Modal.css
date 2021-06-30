@@ -58,7 +58,7 @@
 }
 
 .content-container {
-  padding: 30px;
+  padding: 30px 30px 0 30px;
 }
 
 .modal-description {
@@ -82,4 +82,14 @@
   display: inline-block;
   width: 1em;
   margin-left: -1em;
+}
+
+.modal-footer {
+  background-color: black;
+  color: #fff;
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
 }

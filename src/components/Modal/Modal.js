@@ -44,6 +44,13 @@ export default function Modal({ isOpen, onClickClose, project }) {
               return <li className="bullet-text">{tech}</li>;
             })}
           </ul>
+
+          <div className="modal-footer">
+            <FaIcons.FaExternalLinkAlt></FaIcons.FaExternalLinkAlt>
+            <span>Demo</span>
+            <FaIcons.FaCode></FaIcons.FaCode>
+            <span>Code</span>
+          </div>
         </div>
       </div>
     </div>,
