@@ -13,6 +13,7 @@
   overflow: hidden;
   margin: 0 auto;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 .image-container img {

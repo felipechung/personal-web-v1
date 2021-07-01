@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Card from "../Card/Card";
 import "./CardList.css";
 import Modal from "../Modal/Modal";
+import letmeaskImg from "../../images/letmeask.JPG";
 
 export default function CardList() {
   const [project, setProject] = useState(null);
@@ -45,7 +46,7 @@ export default function CardList() {
 
     {
       name: "Letmeask",
-      image: "",
+      image: letmeaskImg,
       url: "",
       description:
         "A website for users to answer/ask questions. This project was coded along with the instructor of the Rocketseat Next Level Week #5.",

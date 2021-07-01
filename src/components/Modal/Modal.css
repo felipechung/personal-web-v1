@@ -34,7 +34,7 @@
 }
 
 .modal-header {
-  background-color: black;
+  background-color: #242222;
   color: #fff;
   min-width: 100%;
   display: flex;
@@ -85,7 +85,7 @@
 }
 
 .modal-footer {
-  background-color: black;
+  background-color: #242222;
   color: #fff;
   min-width: 100%;
   display: flex;
