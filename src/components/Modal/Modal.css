@@ -26,10 +26,10 @@
   color: #fff;
   font-size: 1.2rem;
 
-  position: relative;
+  position: absolute;
 
-  top: 4px;
-  left: 50px;
+  top: 0.55rem;
+  right: 1rem;
   cursor: pointer;
 }
 
@@ -92,4 +92,21 @@
   justify-content: center;
   align-items: center;
   height: 40px;
+}
+
+.modal-text {
+  margin: 0 30px 0 10px;
+}
+
+.modal-icon {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+}
+
+.modal-icon:hover {
+  color: #00d4bd;
+  transition: all 0.2s ease-out;
 }

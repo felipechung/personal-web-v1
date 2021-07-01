@@ -46,10 +46,24 @@ export default function Modal({ isOpen, onClickClose, project }) {
           </ul>
 
           <div className="modal-footer">
-            <FaIcons.FaExternalLinkAlt></FaIcons.FaExternalLinkAlt>
-            <span>Demo</span>
-            <FaIcons.FaCode></FaIcons.FaCode>
-            <span>Code</span>
+            <a
+              className="modal-icon"
+              href={project.url}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaIcons.FaExternalLinkAlt></FaIcons.FaExternalLinkAlt>
+              <span className="modal-text">Demo</span>
+            </a>
+            <a
+              className="modal-icon"
+              href={project.github}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaIcons.FaCode></FaIcons.FaCode>
+              <span className="modal-text">Code</span>
+            </a>
           </div>
         </div>
       </div>
