@@ -20,7 +20,8 @@ export default function CardList() {
       name: "Restaurant Website",
       image: "https://i.ibb.co/tqkmdSK/restaurant.jpg",
       url: "https://rocky-coast-45390.herokuapp.com/",
-      description: "A fictional restaurant website.",
+      description:
+        "A fictional restaurant website, built with Embedded JavaScript templating.",
       technologies: ["EJS", "Node.js", "mongoDB"],
       id: 2,
     },
@@ -29,7 +30,7 @@ export default function CardList() {
       image: "https://i.ibb.co/KKh034N/movie-app.jpg",
       url: "https://immense-escarpment-63343.herokuapp.com/",
       description:
-        "A website to get information on upcoming movies and tv shows.",
+        "A website to get information on upcoming movies and tv shows. Integrated with The Movie Database API.",
       technologies: ["EJS", "Node.js"],
       id: 3,
     },
