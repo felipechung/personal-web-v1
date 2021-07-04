@@ -15,11 +15,14 @@ function Contact() {
           Send a Message
         </a>
 
-        <div className="contact-icons">
-          <a href="https://github.com/felipechung">
+        <div className="contact-icons-container">
+          <a href="https://github.com/felipechung" className="contact-icon">
             <FaIcons.FaGithubSquare></FaIcons.FaGithubSquare>
           </a>
-          <a href="https://www.linkedin.com/in/felipechung/">
+          <a
+            href="https://www.linkedin.com/in/felipechung/"
+            className="contact-icon"
+          >
             <FaIcons.FaLinkedin></FaIcons.FaLinkedin>
           </a>
         </div>

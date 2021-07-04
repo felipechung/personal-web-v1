@@ -6,9 +6,14 @@
   align-items: center;
 }
 
-.contact-icon {
+.contact-icon-container {
   color: #fff;
   font-size: 4rem;
+}
+
+.contact-icon {
+  text-decoration: none;
+  font-size: 1.5rem;
 }
 
 .send-button {
