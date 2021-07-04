@@ -16,12 +16,12 @@ function Contact() {
         </a>
 
         <div className="contact-icons-container">
-          <a href="https://github.com/felipechung" className="contact-icon">
+          <a href="https://github.com/felipechung" className="contact-me">
             <FaIcons.FaGithubSquare></FaIcons.FaGithubSquare>
           </a>
           <a
             href="https://www.linkedin.com/in/felipechung/"
-            className="contact-icon"
+            className="contact-me"
           >
             <FaIcons.FaLinkedin></FaIcons.FaLinkedin>
           </a>

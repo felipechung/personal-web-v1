@@ -12,8 +12,19 @@
 }
 
 .contact-icon {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.contact-me {
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+.contact-me:hover {
+  color: #00d4bbc7;
+  transition: 250ms;
 }
 
 .send-button {
