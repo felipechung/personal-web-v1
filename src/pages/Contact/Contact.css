@@ -27,6 +27,9 @@
   transition: 250ms;
 }
 
+.contact-text {
+  margin-bottom: 1.2rem;
+}
 .send-button {
   background-color: #00d4bbc7;
 
@@ -38,6 +41,7 @@
   display: inline-block;
   font-size: 1rem;
   border-radius: 5px;
+  margin-bottom: 1.2rem;
 }
 
 .send-button:hover {

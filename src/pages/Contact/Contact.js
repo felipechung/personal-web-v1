@@ -9,8 +9,8 @@ function Contact() {
         <a className="contact-icon" href="mailto:fchung.dev@gmail.com">
           <FaIcons.FaTelegramPlane></FaIcons.FaTelegramPlane>
         </a>
-        <h2>Get In Touch</h2>
-        <p>Feel free to contact me anytime!</p>
+        <h2 className="contact-text">Get In Touch</h2>
+        <p className="contact-text">Feel free to contact me anytime!</p>
         <a className="send-button" href="mailto:fchung.dev@gmail.com">
           Send a Message
         </a>
