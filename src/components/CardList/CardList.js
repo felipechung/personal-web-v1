@@ -9,15 +9,16 @@ export default function CardList() {
 
   const projects = [
     {
-      name: "Party Watch",
-      image: "https://i.ibb.co/LhQcSCP/ptwatch.jpg",
-      url: "https://felipechung.github.io/party-watch/",
-      github: "https://github.com/felipechung/party-watch",
+      name: "Letmeask",
+      image: letmeaskImg,
+      url: "https://letmeask-1558a.web.app/",
+      github: "https://github.com/felipechung/letmeask",
       description:
-        "A simple landing page for a personal project. A website to watch videos simultaneously with other people.",
-      technologies: ["HTML", "CSS", "Bootstrap"],
+        "A website for users to answer/ask questions. This project was coded along with the instructor of the Rocketseat Next Level Week #5.",
+      technologies: ["React JS", "TypeScript", "Firebase"],
       id: 1,
     },
+
     {
       name: "Restaurant Website",
       image: "https://i.ibb.co/tqkmdSK/restaurant.jpg",
@@ -47,15 +48,14 @@ export default function CardList() {
       technologies: ["HTML", "CSS", "JavaScript"],
       id: 4,
     },
-
     {
-      name: "Letmeask",
-      image: letmeaskImg,
-      url: "https://letmeask-1558a.web.app/",
-      github: "https://github.com/felipechung/letmeask",
+      name: "Party Watch",
+      image: "https://i.ibb.co/LhQcSCP/ptwatch.jpg",
+      url: "https://felipechung.github.io/party-watch/",
+      github: "https://github.com/felipechung/party-watch",
       description:
-        "A website for users to answer/ask questions. This project was coded along with the instructor of the Rocketseat Next Level Week #5.",
-      technologies: ["React JS", "TypeScript", "Firebase"],
+        "A simple landing page for a personal project. A website to watch videos simultaneously with other people.",
+      technologies: ["HTML", "CSS", "Bootstrap"],
       id: 5,
     },
   ];
