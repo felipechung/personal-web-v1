@@ -21,12 +21,12 @@ function About() {
 
               <div className="bullet-container">
                 <ul className="about-text bullets">
-                  <li className="bullet-text">HTML & CSS</li>
+                  <li className="bullet-text">JavaScript</li>
                   <li className="bullet-text">React</li>
                 </ul>
 
                 <ul className="about-text bullets">
-                  <li className="bullet-text">JavaScript</li>
+                  <li className="bullet-text">Firebase</li>
                   <li className="bullet-text">Node.js</li>
                 </ul>
               </div>
