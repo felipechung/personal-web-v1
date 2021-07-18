@@ -1,5 +1,3 @@
-# Personal Website v1
+# Personal website
 
-![Project Image](./src/images/personal-web.JPG)
-
-Personal website built with React
+First personal website made with React
