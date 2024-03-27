@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #393e46;
+  background-color: var(--secondary-color);
   height: 70px;
   display: flex;
   justify-content: center;
@@ -39,19 +39,19 @@
 }
 
 .nav-links {
-  color: #eeeeee;
+  color: var(--text-color);
   text-decoration: none;
   padding: 0.5rem 1rem;
 }
 
 .nav-links:hover {
-  background-color: #00adb5;
+  background-color: var(--highlight-color);
   border-radius: 4px;
   transition: background-color 0.2s ease-out;
 }
 
 .navbar-logo {
-  color: #eeeeee;
+  color: var(--text-color);
   font-size: 1.5rem;
   text-decoration: none;
 }
@@ -84,7 +84,7 @@
   }
 
   .nav-menu.active {
-    background: #242222;
+    background: var(--secondary-color);
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
@@ -104,8 +104,8 @@
   }
 
   .nav-links:hover {
-    background-color: #00adb5;
-    color: #eeeeee;
+    background-color: var(--highlight-color);
+    color: var(--text-color);
     border-radius: 0;
   }
 }

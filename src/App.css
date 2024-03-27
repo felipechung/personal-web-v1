@@ -26,7 +26,8 @@
 
 #portfolio,
 #about,
-#contact {
+#contact,
+#experience {
   display: flex;
   flex-direction: column;
   height: 100%;

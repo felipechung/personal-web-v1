@@ -32,6 +32,15 @@ function Navbar() {
             </a>
           </li>
           <li className="nav-item">
+            <a
+              href="#experience"
+              className="nav-links"
+              onClick={closeMobileMenu}
+            >
+              Experience
+            </a>
+          </li>
+          <li className="nav-item">
             <a href="#about" className="nav-links" onClick={closeMobileMenu}>
               About
             </a>

@@ -4,7 +4,7 @@ import profilePicture from "../../images/pic.jpg";
 
 function About() {
   return (
-    <div className="gray-background" id="about">
+    <div className="background" id="about">
       <div className="portfolio-container">
         <div className="title">
           <h3>A little bit </h3>

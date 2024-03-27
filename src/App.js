@@ -7,6 +7,7 @@ import About from "./pages/About/About";
 import Contact from "./pages/Contact/Contact";
 import LeftButtons from "./components/SideButtons/LeftButtons/LeftButtons";
 import RightButtons from "./components/SideButtons/RightButtons/RightButtons";
+import Experience from "./pages/Experience/Experience";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Navbar />
       <Main />
       <Portfolio />
+      <Experience />
       <About />
       <Contact />
       <LeftButtons />
