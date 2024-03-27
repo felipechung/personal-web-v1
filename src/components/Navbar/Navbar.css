@@ -8,8 +8,14 @@
   position: fixed;
   top: 0;
   width: 100%;
-  padding: 0 20px;
+  padding: 0 50px;
   z-index: 10;
+}
+
+.cont {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
 }
 
 .navbar-container {

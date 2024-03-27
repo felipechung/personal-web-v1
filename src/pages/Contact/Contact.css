@@ -6,11 +6,6 @@
   align-items: center;
 }
 
-.contact-icon-container {
-  color: #fff;
-  font-size: 4rem;
-}
-
 .contact-icon {
   font-size: 3rem;
   color: #fff;
@@ -18,7 +13,7 @@
 
 .contact-me {
   text-decoration: none;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   color: #fff;
 }
 

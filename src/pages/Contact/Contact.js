@@ -14,18 +14,6 @@ function Contact() {
         <a className="send-button" href="mailto:fchung.dev@gmail.com">
           Send a Message
         </a>
-
-        <div className="contact-icons-container">
-          <a href="https://github.com/felipechung" className="contact-me">
-            <FaIcons.FaGithubSquare></FaIcons.FaGithubSquare>
-          </a>
-          <a
-            href="https://www.linkedin.com/in/felipechung/"
-            className="contact-me"
-          >
-            <FaIcons.FaLinkedin></FaIcons.FaLinkedin>
-          </a>
-        </div>
       </div>
     </div>
   );
