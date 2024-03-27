@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+import profilePicture from "../../images/pic.jpg";
 
 function About() {
   return (
@@ -34,9 +35,10 @@ function About() {
             <div className="profile-container">
               <img
                 className="profile-picture"
-                src="https://i.ibb.co/1LhcctZ/profile-111.png"
+                src={profilePicture}
                 alt="profile"
               ></img>
+              <div className="squared-border" />
             </div>
           </div>
         </div>

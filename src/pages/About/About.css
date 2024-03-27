@@ -3,7 +3,7 @@
 }
 
 .gray-background {
-  background-color: #111;
+  background-color: #222831;
 }
 
 .portfolio-container {
@@ -17,7 +17,7 @@
 
 .bullets li::before {
   content: "\2022";
-  color: #00d4bd;
+  color: #00adb5;
   font-weight: bold;
   display: inline-block;
   width: 1em;
@@ -32,14 +32,31 @@
   padding: 1.2rem;
 }
 
+.profile-container {
+  height: 250px;
+  width: 250px;
+  margin-left: 3rem;
+  position: relative;
+}
 .profile-picture {
   margin-left: 1rem;
   width: 250px;
   height: 250px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
+
+.squared-border {
+  width: 250px;
+  height: 250px;
+  border: 3px solid #eee;
+  border-radius: 10px;
 }
 
 @media screen and (max-width: 960px) {
-  .profile-picture {
+  .profile-container {
     display: none;
   }
 }

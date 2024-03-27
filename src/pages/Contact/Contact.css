@@ -23,7 +23,7 @@
 }
 
 .contact-me:hover {
-  color: #00d4bbc7;
+  color: #00adb5;
   transition: 250ms;
 }
 
@@ -31,7 +31,7 @@
   margin-bottom: 1.2rem;
 }
 .send-button {
-  background-color: #00d4bbc7;
+  background-color: #00adb5;
 
   border: none;
   color: white;
@@ -45,6 +45,6 @@
 }
 
 .send-button:hover {
-  background-color: #00d4bd;
+  background-color: #07d4df;
   transition: 250ms;
 }
