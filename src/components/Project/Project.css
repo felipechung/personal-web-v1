@@ -10,6 +10,7 @@
   width: 100%;
   margin-top: 2rem;
   gap: 50px;
+  margin-bottom: 10rem;
 }
 
 .project-text-container {
@@ -62,6 +63,7 @@
 .project-icon {
   display: flex;
   align-items: center;
+  width: 4rem;
   gap: 5px;
   text-decoration: none;
   color: var(--text-color);
@@ -69,6 +71,10 @@
   text-align: start;
 }
 
+.project-icon:hover {
+  color: var(--highlight-color);
+  transition: all 0.2s ease-out;
+}
 .projectLinkText {
   font-size: 0.9rem;
 }

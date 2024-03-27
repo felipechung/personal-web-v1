@@ -1,8 +1,8 @@
 import React from "react";
-import "./SideButtons.css";
+import "./LeftButtons.css";
 import * as FaIcons from "react-icons/fa";
 
-function SideButtons() {
+function LeftButtons() {
   return (
     <div className="sideButtons-container">
       <div className="buttons-wrapper">
@@ -33,14 +33,8 @@ function SideButtons() {
         </a>
         <div className="bottom-line-left" />
       </div>
-      <div className="email-wrapper">
-        <a className="email-text" href="mailto:fchung.dev@gmail.com">
-          fchung.dev@gmail.com
-        </a>
-        <div className="bottom-line-right" />
-      </div>
     </div>
   );
 }
 
-export default SideButtons;
+export default LeftButtons;

@@ -1,0 +1,19 @@
+.sideButtons-container {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  padding: 0 40px;
+}
+
+.buttons-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.bottom-line-left {
+  border: 1px solid #eeee;
+  width: 1px;
+  height: 155px;
+}

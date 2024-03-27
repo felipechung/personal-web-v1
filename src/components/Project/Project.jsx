@@ -9,16 +9,21 @@ function Project({
   technologies,
   demoUrl,
   codeUrl,
+  imageStart,
 }) {
   return (
     <div className="project-container">
-      <img className="project-img" src={image} alt="Project img" />
+      {imageStart && (
+        <img className="project-img" src={image} alt="Project img" />
+      )}
       <div className="project-text-container">
         <span className="project-title">{title}</span>
         <p className="project-text">{description}</p>
         <ul className="technologies-container">
-          {technologies.map((technology) => (
-            <li className="technology">{technology}</li>
+          {technologies.map((technology, index) => (
+            <li className="technology" key={index}>
+              {technology}
+            </li>
           ))}
         </ul>
         {demoUrl && (
@@ -45,6 +50,10 @@ function Project({
           </a>
         )}
       </div>
+
+      {!imageStart && (
+        <img className="project-img" src={image} alt="Project img" />
+      )}
     </div>
   );
 }
