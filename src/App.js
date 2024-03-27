@@ -9,13 +9,11 @@ import Contact from "./pages/Contact/Contact";
 function App() {
   return (
     <div className="App">
-      <Navbar></Navbar>
-
-      <Main></Main>
-
-      <Portfolio></Portfolio>
-      <About></About>
-      <Contact></Contact>
+      <Navbar />
+      <Main />
+      <Portfolio />
+      <About />
+      <Contact />
     </div>
   );
 }

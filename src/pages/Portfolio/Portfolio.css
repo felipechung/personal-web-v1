@@ -1,26 +1,3 @@
-/* .portfolio-container {
-  background-color: black;
-  height: 100%;
-}
-
-.title {
-  padding: 15rem 0 0 10rem;
-}
-.title h3 {
-  color: #00d4bd;
-  font-weight: 100;
-}
-
-.title h1 {
-  color: white;
-  font-weight: 100;
-}
-
-.title p {
-  color: white;
-  font-weight: 100;
-} */
-
 .dark-background {
   background-color: black;
 }
@@ -47,7 +24,7 @@
   margin-top: 0.5rem;
 }
 .title h3 {
-  color: #00d4bd;
+  color: #00adb5;
   font-weight: 100;
 }
 .title p {

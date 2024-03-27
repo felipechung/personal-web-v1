@@ -7,47 +7,48 @@ function Navbar() {
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
+
   return (
-    <>
-      <nav className="navbar">
-        <a className="navbar-logo" href="#home">
+    <nav className="navbar">
+      <div className="navbar-container">
+        <a href="#home" className="navbar-logo" onClick={closeMobileMenu}>
           &lt;fchung&gt;
         </a>
         <div className="menu-icon" onClick={handleClick}>
-          <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
+          {click ? (
+            <FaIcons.FaTimes color="#EEEEEE" />
+          ) : (
+            <FaIcons.FaBars color="#EEEEEE" />
+          )}
         </div>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className="nav-item">
             <a className="nav-links" href="#home" onClick={closeMobileMenu}>
-              <FaIcons.FaHome></FaIcons.FaHome>
               <span className="nav-icon">Home</span>
             </a>
           </li>
           <li className="nav-item">
             <a
-              className="nav-links"
               href="#portfolio"
+              className="nav-links"
               onClick={closeMobileMenu}
             >
-              <FaIcons.FaLayerGroup></FaIcons.FaLayerGroup>
-              <span className="nav-icon">Portfolio</span>
+              Portfolio
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-links" href="#about" onClick={closeMobileMenu}>
-              <FaIcons.FaUserAlt></FaIcons.FaUserAlt>
-              <span className="nav-icon">About</span>
+            <a href="#about" className="nav-links" onClick={closeMobileMenu}>
+              About
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-links" href="#contact" onClick={closeMobileMenu}>
-              <FaIcons.FaComments></FaIcons.FaComments>
-              <span className="nav-icon">Contact</span>
+            <a href="#contact" className="nav-links" onClick={closeMobileMenu}>
+              Contact
             </a>
           </li>
         </ul>
-      </nav>
-    </>
+      </div>
+    </nav>
   );
 }
 
