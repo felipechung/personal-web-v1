@@ -1,6 +1,6 @@
 import React from "react";
 import "./Portfolio.css";
-import projectImage from "../../images/lcc10.png";
+import creditoJaProject from "../../images/lcc10.png";
 import Project from "../../components/Project/Project";
 
 function Portfolio() {
@@ -12,8 +12,8 @@ function Portfolio() {
           <h2>Recent Projects</h2>
         </div>
         <Project
-          image={projectImage}
-          title="Credito ja"
+          image={creditoJaProject}
+          title="Credito Ja"
           description=" Financial solutions website, designed to streamline your credit
           search. Project developed under my time at B2bit Company."
           technologies={["Next.js", "React", "Vite", "Styled Components"]}

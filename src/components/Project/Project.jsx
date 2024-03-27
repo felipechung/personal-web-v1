@@ -29,7 +29,7 @@ function Project({
             rel="noopener noreferrer"
           >
             <FaIcons.FaExternalLinkAlt></FaIcons.FaExternalLinkAlt>
-            <span className="modal-text">Demo</span>
+            <span className="projectLinkText">Demo</span>
           </a>
         )}
 
@@ -41,7 +41,7 @@ function Project({
             rel="noopener noreferrer"
           >
             <FaIcons.FaGithub></FaIcons.FaGithub>
-            <span className="modal-text">Code</span>
+            <span className="projectLinkText">Code</span>
           </a>
         )}
       </div>
