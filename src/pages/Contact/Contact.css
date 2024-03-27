@@ -1,24 +1,24 @@
 .contact-container {
   display: flex;
   flex-direction: column;
-  color: #fff;
+  color: var(--text-color);
   padding: 2rem;
   align-items: center;
 }
 
 .contact-icon {
   font-size: 3rem;
-  color: #fff;
+  color: var(--text-color);
 }
 
 .contact-me {
   text-decoration: none;
   font-size: 1.5rem;
-  color: #fff;
+  color: var(--text-color);
 }
 
 .contact-me:hover {
-  color: #00adb5;
+  color: var(--highlight-color);
   transition: 250ms;
 }
 
@@ -26,10 +26,10 @@
   margin-bottom: 1.2rem;
 }
 .send-button {
-  background-color: #00adb5;
+  background-color: var(--highlight-color);
 
   border: none;
-  color: white;
+  color: var(--text-color);
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;

@@ -8,6 +8,13 @@
   font-family: "Karla", sans-serif;
 }
 
+:root {
+  --primary-color: #222831;
+  --secondary-color: #393e46;
+  --text-color: #eee;
+  --highlight-color: #00adb5;
+}
+
 #home {
   display: flex;
   flex-direction: column;

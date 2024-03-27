@@ -1,10 +1,10 @@
 .dark-background {
-  background-color: #222831;
+  background-color: var(--primary-color);
 }
 
 .title {
   margin-top: 3rem;
-  color: white;
+  color: var(--text-color);
   margin-right: auto;
   font-size: 1rem;
 }
@@ -24,7 +24,7 @@
   margin-top: 0.5rem;
 }
 .title h3 {
-  color: #00adb5;
+  color: var(--highlight-color);
   font-weight: 100;
 }
 .title p {

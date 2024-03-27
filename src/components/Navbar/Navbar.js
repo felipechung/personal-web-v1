@@ -12,7 +12,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="navbar-container">
         <a href="#home" className="navbar-logo" onClick={closeMobileMenu}>
-          &lt;fchung&gt;
+          &lt;fchung/&gt;
         </a>
         <div className="menu-icon" onClick={handleClick}>
           {click ? (

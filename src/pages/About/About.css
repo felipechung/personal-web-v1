@@ -3,7 +3,7 @@
 }
 
 .gray-background {
-  background-color: #222831;
+  background-color: var(--primary-color);
 }
 
 .portfolio-container {
@@ -17,7 +17,7 @@
 
 .bullets li::before {
   content: "\2022";
-  color: #00adb5;
+  color: var(--highlight-color);
   font-weight: bold;
   display: inline-block;
   width: 1em;
@@ -51,7 +51,7 @@
 .squared-border {
   width: 250px;
   height: 250px;
-  border: 3px solid #eee;
+  border: 3px solid var(--text-color);
   border-radius: 10px;
 }
 

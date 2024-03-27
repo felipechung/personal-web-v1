@@ -1,5 +1,5 @@
 .background {
-  background-color: #222831;
+  background-color: var(--primary-color);
 }
 .main-container {
   display: flex;
@@ -15,10 +15,10 @@
 }
 
 .intro h1 {
-  color: white;
+  color: var(--text-color);
   font-weight: 100;
 }
 
 .name {
-  color: #00adb5;
+  color: var(--highlight-color);
 }
