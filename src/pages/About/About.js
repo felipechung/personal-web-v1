@@ -14,7 +14,7 @@ function About() {
               <p className="about-text">
                 Hi, My name is Felipe Chung. I am a Web Developer with a passion
                 for front-end development. I enjoy building things for the web,
-                from simple landing pages to eCommerce websites.
+                from simple landing pages to more complex projects.
               </p>
               <p className="about-text">
                 Some technologies I've been working with recently:
@@ -22,13 +22,15 @@ function About() {
 
               <div className="bullet-container">
                 <ul className="about-text bullets">
-                  <li className="bullet-text">JavaScript</li>
                   <li className="bullet-text">React</li>
+                  <li className="bullet-text">Typescript</li>
+                  <li className="bullet-text">React Native</li>
                 </ul>
 
                 <ul className="about-text bullets">
+                  <li className="bullet-text">Next.js</li>
                   <li className="bullet-text">Firebase</li>
-                  <li className="bullet-text">Node.js</li>
+                  <li className="bullet-text">Styled Components</li>
                 </ul>
               </div>
             </div>

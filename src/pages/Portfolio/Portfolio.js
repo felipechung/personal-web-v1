@@ -1,6 +1,7 @@
 import React from "react";
 import "./Portfolio.css";
-import CardList from "../../components/CardList/CardList";
+import projectImage from "../../images/lcc10.png";
+import Project from "../../components/Project/Project";
 
 function Portfolio() {
   return (
@@ -9,9 +10,15 @@ function Portfolio() {
         <div className="title">
           <h3>Portfolio</h3>
           <h2>Recent Projects</h2>
-          <p>These are the most recent projects I’ve worked on</p>
         </div>
-        <CardList></CardList>
+        <Project
+          image={projectImage}
+          title="Credito ja"
+          description=" Financial solutions website, designed to streamline your credit
+          search. Project developed under my time at B2bit Company."
+          technologies={["Next.js", "React", "Vite", "Styled Components"]}
+          demoUrl="https://www.creditoja.rn.sebrae.com.br/"
+        />
       </div>
     </div>
   );
