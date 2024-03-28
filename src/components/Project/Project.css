@@ -30,6 +30,11 @@
   text-decoration: none;
 }
 
+.project-title:hover {
+  color: var(--highlight-color);
+  transition: all 0.5s ease;
+}
+
 .project-text {
   font-size: 1rem;
   color: var(--text-color);
