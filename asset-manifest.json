@@ -1,22 +1,16 @@
 {
   "files": {
-    "main.css": "/personal-web-v1-react/static/css/main.70e52555.chunk.css",
-    "main.js": "/personal-web-v1-react/static/js/main.05769631.chunk.js",
-    "main.js.map": "/personal-web-v1-react/static/js/main.05769631.chunk.js.map",
-    "runtime-main.js": "/personal-web-v1-react/static/js/runtime-main.636fc89f.js",
-    "runtime-main.js.map": "/personal-web-v1-react/static/js/runtime-main.636fc89f.js.map",
-    "static/js/2.4dadad65.chunk.js": "/personal-web-v1-react/static/js/2.4dadad65.chunk.js",
-    "static/js/2.4dadad65.chunk.js.map": "/personal-web-v1-react/static/js/2.4dadad65.chunk.js.map",
+    "main.css": "/personal-web-v1-react/static/css/main.aa0487a4.css",
+    "main.js": "/personal-web-v1-react/static/js/main.1e9a2535.js",
+    "static/media/lcc10.png": "/personal-web-v1-react/static/media/lcc10.de6e5c3f4ca33c88e08f.png",
+    "static/media/finder1.png": "/personal-web-v1-react/static/media/finder1.96975896c4f94ad74308.png",
+    "static/media/pic.jpg": "/personal-web-v1-react/static/media/pic.55cb6e1df4d4d6d626a5.jpg",
     "index.html": "/personal-web-v1-react/index.html",
-    "static/css/main.70e52555.chunk.css.map": "/personal-web-v1-react/static/css/main.70e52555.chunk.css.map",
-    "static/js/2.4dadad65.chunk.js.LICENSE.txt": "/personal-web-v1-react/static/js/2.4dadad65.chunk.js.LICENSE.txt",
-    "static/media/letmeask.d7173bb5.JPG": "/personal-web-v1-react/static/media/letmeask.d7173bb5.JPG",
-    "static/media/Main.css": "/personal-web-v1-react/static/media/nyc3.2ea4697a.jpg"
+    "main.aa0487a4.css.map": "/personal-web-v1-react/static/css/main.aa0487a4.css.map",
+    "main.1e9a2535.js.map": "/personal-web-v1-react/static/js/main.1e9a2535.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.636fc89f.js",
-    "static/js/2.4dadad65.chunk.js",
-    "static/css/main.70e52555.chunk.css",
-    "static/js/main.05769631.chunk.js"
+    "static/css/main.aa0487a4.css",
+    "static/js/main.1e9a2535.js"
   ]
 }
