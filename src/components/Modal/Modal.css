@@ -14,11 +14,18 @@
   position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
   background-color: var(--text-color);
   width: 400px;
   max-height: 400px;
   border-radius: 20px;
+  opacity: 0;
+  transform: translate(-50%, -50%) scale(0.9);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.modal.is-open {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
 }
 
 .modal-close-button {

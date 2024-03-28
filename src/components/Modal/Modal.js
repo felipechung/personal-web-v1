@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import ReactDom from "react-dom";
 import "./Modal.css";
 import * as FaIcons from "react-icons/fa";
@@ -7,7 +7,17 @@ const portalRoot = document.getElementById("portal-root");
 
 export default function Modal({ isOpen, onClickClose, project }) {
   const modalRef = useRef();
+  const [animate, setAnimate] = useState(false);
 
+  useEffect(() => {
+    if (isOpen) {
+      requestAnimationFrame(() => {
+        setAnimate(true);
+      });
+    } else {
+      setAnimate(false);
+    }
+  }, [isOpen]);
   const closeModal = (e) => {
     if (modalRef.current === e.target) {
       onClickClose();
@@ -20,7 +30,7 @@ export default function Modal({ isOpen, onClickClose, project }) {
 
   return ReactDom.createPortal(
     <div className="modal-overlay" ref={modalRef} onClick={closeModal}>
-      <div className="modal">
+      <div className={`modal ${animate ? "is-open" : ""}`}>
         <div className="modal-content">
           <div className="modal-header">
             <span className="modal-title">{project.name}</span>
