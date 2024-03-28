@@ -12,23 +12,25 @@ function Portfolio() {
           <h3>Portfolio</h3>
           <h2>Recent Projects</h2>
         </div>
-        <Project
-          image={creditoJaImage}
-          title="Credito Ja"
-          description=" Financial solutions website, designed to streamline your credit
+        <div className="project-wrapper">
+          <Project
+            image={creditoJaImage}
+            title="Credito Ja"
+            description=" Financial solutions website, designed to streamline your credit
           search. Project developed under my time at B2bit Company."
-          technologies={["Next.js", "React", "Vite", "Styled Components"]}
-          demoUrl="https://www.creditoja.rn.sebrae.com.br/"
-          imageStart
-        />
-        <Project
-          image={finderImage}
-          title="Finder"
-          description="This is a white-label solution designed for the internal management of law firms.
+            technologies={["Next.js", "React", "Vite", "Styled Components"]}
+            demoUrl="https://www.creditoja.rn.sebrae.com.br/"
+            imageStart
+          />
+          <Project
+            image={finderImage}
+            title="Finder"
+            description="This is a white-label solution designed for the internal management of law firms.
           "
-          technologies={["React", "Vite", "Styled Components"]}
-          demoUrl="https://www.finder.b2bit.company/login/"
-        />
+            technologies={["React", "Vite", "Styled Components"]}
+            demoUrl="https://www.finder.b2bit.company/login/"
+          />
+        </div>
       </div>
     </div>
   );

@@ -14,7 +14,9 @@ function Project({
   return (
     <div className="project-container">
       {imageStart && (
-        <img className="project-img" src={image} alt="Project img" />
+        <div className="img-container">
+          <img className="project-img" src={image} alt="Project img" />
+        </div>
       )}
       <div className="project-text-container">
         <span className="project-title">{title}</span>
@@ -52,7 +54,9 @@ function Project({
       </div>
 
       {!imageStart && (
-        <img className="project-img" src={image} alt="Project img" />
+        <div className="img-container">
+          <img className="project-img" src={image} alt="Project img" />
+        </div>
       )}
     </div>
   );
