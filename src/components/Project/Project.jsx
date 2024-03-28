@@ -1,19 +1,17 @@
 import React from "react";
 import "./Project.css";
-import * as FaIcons from "react-icons/fa";
 
 function Project({
   image,
   title,
   description,
   technologies,
-  demoUrl,
-  codeUrl,
+  projectUrl,
   imageStart,
 }) {
   return (
     <a
-      href={demoUrl}
+      href={projectUrl}
       target="_blank"
       rel="noopener noreferrer"
       className="project-container"

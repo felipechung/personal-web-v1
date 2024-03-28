@@ -20,7 +20,7 @@ function Portfolio() {
             description=" Financial solutions website, designed to streamline your credit
           search. Project developed under my time at B2bit Company."
             technologies={["Next.js", "React", "Vite", "Styled Components"]}
-            demoUrl="https://www.creditoja.rn.sebrae.com.br/"
+            projectUrl="https://www.creditoja.rn.sebrae.com.br/"
             imageStart
           />
           <Project
@@ -29,7 +29,7 @@ function Portfolio() {
             description="This is a white-label solution designed for the internal management of law firms.
           "
             technologies={["React", "Vite", "Styled Components"]}
-            demoUrl="https://www.finder.b2bit.company/login/"
+            projectUrl="https://www.finder.b2bit.company/login/"
           />
         </div>
         <div className="center-title">
