@@ -3,6 +3,7 @@ import "./Portfolio.css";
 import creditoJaImage from "../../images/lcc10.png";
 import finderImage from "../../images/finder1.png";
 import Project from "../../components/Project/Project";
+import CardList from "../../components/CardList/CardList";
 
 function Portfolio() {
   return (
@@ -30,6 +31,10 @@ function Portfolio() {
             technologies={["React", "Vite", "Styled Components"]}
             demoUrl="https://www.finder.b2bit.company/login/"
           />
+        </div>
+        <div className="center-title">
+          <h2>Other projects</h2>
+          <CardList />
         </div>
       </div>
     </div>

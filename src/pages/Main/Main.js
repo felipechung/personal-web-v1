@@ -11,7 +11,7 @@ function Main() {
             Hi, my name is <span className="name">Felipe Chung</span>
           </h1>
           <h1>
-            I design and develop{" "}
+            I design and build{" "}
             <ReactTyped
               strings={["websites.", "mobile apps.", "things."]}
               typeSpeed={100}

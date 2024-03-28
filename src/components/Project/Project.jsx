@@ -12,26 +12,19 @@ function Project({
   imageStart,
 }) {
   return (
-    <div className="project-container">
+    <a
+      href={demoUrl}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="project-container"
+    >
       {imageStart && (
-        <a
-          href={demoUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="img-container"
-        >
+        <div className="img-container">
           <img className="project-img" src={image} alt="Project img" />
-        </a>
+        </div>
       )}
       <div className="project-text-container">
-        <a
-          href={demoUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="project-title"
-        >
-          {title}
-        </a>
+        <span className="project-title">{title}</span>
         <p className="project-text">{description}</p>
         <ul className="technologies-container">
           {technologies.map((technology, index) => (
@@ -40,29 +33,6 @@ function Project({
             </li>
           ))}
         </ul>
-        {demoUrl && (
-          <a
-            className="project-icon"
-            href={demoUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaIcons.FaExternalLinkAlt></FaIcons.FaExternalLinkAlt>
-            <span className="projectLinkText">Demo</span>
-          </a>
-        )}
-
-        {codeUrl && (
-          <a
-            className="project-icon"
-            href={codeUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaIcons.FaGithub></FaIcons.FaGithub>
-            <span className="projectLinkText">Code</span>
-          </a>
-        )}
       </div>
 
       {!imageStart && (
@@ -70,7 +40,7 @@ function Project({
           <img className="project-img" src={image} alt="Project img" />
         </div>
       )}
-    </div>
+    </a>
   );
 }
 

@@ -15,6 +15,15 @@
   width: 100%;
   margin-top: 2rem;
   gap: 50px;
+  padding: 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.project-container:hover {
+  background-color: var(--secondary-color);
+  transition: all 0.5s ease-out;
+  border-radius: 10px;
 }
 
 .project-text-container {
@@ -30,7 +39,7 @@
   text-decoration: none;
 }
 
-.project-title:hover {
+.project-container:hover .project-title {
   color: var(--highlight-color);
   transition: all 0.5s ease;
 }

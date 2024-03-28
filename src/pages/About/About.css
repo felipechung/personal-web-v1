@@ -6,8 +6,13 @@
   background-color: var(--primary-color);
 }
 
-.portfolio-container {
+.about-container {
   margin: 5rem 5rem 8rem 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1280px;
+  width: 60%;
 }
 
 .bullets {
