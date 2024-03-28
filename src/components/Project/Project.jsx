@@ -14,9 +14,14 @@ function Project({
   return (
     <div className="project-container">
       {imageStart && (
-        <div className="img-container">
+        <a
+          href={demoUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="img-container"
+        >
           <img className="project-img" src={image} alt="Project img" />
-        </div>
+        </a>
       )}
       <div className="project-text-container">
         <a
