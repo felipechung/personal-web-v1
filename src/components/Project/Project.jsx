@@ -19,7 +19,14 @@ function Project({
         </div>
       )}
       <div className="project-text-container">
-        <span className="project-title">{title}</span>
+        <a
+          href={demoUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="project-title"
+        >
+          {title}
+        </a>
         <p className="project-text">{description}</p>
         <ul className="technologies-container">
           {technologies.map((technology, index) => (

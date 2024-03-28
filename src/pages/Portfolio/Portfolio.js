@@ -10,7 +10,7 @@ function Portfolio() {
       <div className="portfolio-container">
         <div className="title">
           <h3>Portfolio</h3>
-          <h2>Recent Projects</h2>
+          <h2>Featured Projects</h2>
         </div>
         <div className="project-wrapper">
           <Project
