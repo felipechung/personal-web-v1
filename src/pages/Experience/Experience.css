@@ -12,3 +12,28 @@
   color: var(--highlight-color);
   text-decoration: none;
 }
+
+.job-title-container {
+  margin: 1.5rem 0 1rem 0;
+}
+
+.job-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.experiences-container li {
+  padding: 10px 0 10px 25px;
+  position: relative;
+  list-style: none;
+}
+
+.experiences-container li:before {
+  content: "•";
+  color: var(--highlight-color);
+  position: absolute;
+  font-size: 2rem;
+  line-height: 13px;
+  top: 12px;
+  left: 0;
+}
