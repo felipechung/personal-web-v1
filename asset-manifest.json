@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/personal-web-v1-react/static/css/main.aa0487a4.css",
-    "main.js": "/personal-web-v1-react/static/js/main.1e9a2535.js",
+    "main.css": "/personal-web-v1-react/static/css/main.18a084c0.css",
+    "main.js": "/personal-web-v1-react/static/js/main.2172374d.js",
     "static/media/lcc10.png": "/personal-web-v1-react/static/media/lcc10.de6e5c3f4ca33c88e08f.png",
     "static/media/finder1.png": "/personal-web-v1-react/static/media/finder1.96975896c4f94ad74308.png",
+    "static/media/letmeask.JPG": "/personal-web-v1-react/static/media/letmeask.d7173bb5c794ffa1399c.JPG",
     "static/media/pic.jpg": "/personal-web-v1-react/static/media/pic.55cb6e1df4d4d6d626a5.jpg",
     "index.html": "/personal-web-v1-react/index.html",
-    "main.aa0487a4.css.map": "/personal-web-v1-react/static/css/main.aa0487a4.css.map",
-    "main.1e9a2535.js.map": "/personal-web-v1-react/static/js/main.1e9a2535.js.map"
+    "main.18a084c0.css.map": "/personal-web-v1-react/static/css/main.18a084c0.css.map",
+    "main.2172374d.js.map": "/personal-web-v1-react/static/js/main.2172374d.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa0487a4.css",
-    "static/js/main.1e9a2535.js"
+    "static/css/main.18a084c0.css",
+    "static/js/main.2172374d.js"
   ]
 }
