@@ -1,7 +1,6 @@
 import React from "react";
 import "./Portfolio.css";
-import creditoJaImage from "../../images/lcc10.png";
-import finderImage from "../../images/finder1.png";
+
 import fitnessDashboard from "../../images/fitnessDashboard.png";
 import Project from "../../components/Project/Project";
 import CardList from "../../components/CardList/CardList";
@@ -21,23 +20,6 @@ function Portfolio() {
             description="Personal project created to make me motivated at the gym. Plan your training, log your daily workouts, and track improvements over time."
             technologies={["React", "Vite", "Firebase", "Material UI"]}
             projectUrl="https://fitness-tracker-9442f.web.app/"
-            imageStart
-          />
-          <Project
-            image={creditoJaImage}
-            title="Credito Ja"
-            description=" Financial solutions website, designed to streamline your credit
-          search. Project developed under my time at B2bit Company."
-            technologies={["Next.js", "React", "Vite", "Styled Components"]}
-            projectUrl="https://www.creditoja.rn.sebrae.com.br/"
-          />
-          <Project
-            image={finderImage}
-            title="Finder"
-            description="This is a white-label solution designed for the internal management of law firms.
-          "
-            technologies={["React", "Vite", "Styled Components"]}
-            projectUrl="https://www.finder.b2bit.company/login/"
             imageStart
           />
         </div>
