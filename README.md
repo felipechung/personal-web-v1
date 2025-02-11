@@ -1,3 +1,3 @@
 # Personal website
 
-First personal website made with React.js
+First personal website made with React
